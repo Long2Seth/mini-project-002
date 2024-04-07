@@ -9,11 +9,3 @@ services:
     restart: always
     ports:
       - 3206:3000
-    environment:
-      - NODE_ENV=production
-      - GENERATE_SOURCEMAP=false
-    networks:
-      - data_analytics
-networks:
-  data_analytics: data_analytics
-    external: true
