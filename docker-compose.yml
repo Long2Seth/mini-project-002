@@ -16,4 +16,4 @@ services:
       - data_analytics
 networks:
   data_analytics: data_analytics
-  external: true
+    external: true
